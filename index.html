@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-grid.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+      <input type="search " class="offset-10 col-2 search" placeholder="Search">
+     <table class="table table-dark table-striped">
+       <thead><tr>
+        <td>Phone</td>
+        <td>Full Name</td>
+        <td>Email</td>
+        <td>Address</td>
+        <td>Operation</td>
+    </tr></thead>
+        <tbody> </tbody>
+       
+    </table>    
+    <button class="modal-btn btn-secondary">Add Contact</button>
+
+        <div class="modal" tabindex="-1" >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Add new record </h5>
+             
+              <button type="button" class="btn-close icon-close" data-bs-dismiss="modal" aria-label="Close"><img src="./src/x.svg" alt="close"></button>
+            </div>
+            <div class="modal-body">
+
+                <form  action="#" class="form-contact" id="form-contact">
+                    <label for="tel">Phone:</label>
+                    <input class="tel" type="tel" id="phone" name="phone">
+                    <label for="name">Full Name:</label>
+                    <input class="name" type="text" id="name" name="name">
+                    <label for="mail">Email:</label>
+                    <input class="email" type="text" id="email" name="email">
+                    <label for="address">Address:</label>
+                    <input  class="address" type="text" id="address" name="address" >
+                   
+                </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-close" >Close</button>
+              <button type="submit" class="btn btn-primary btn-submit">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/0217168953.js" crossorigin="anonymous"></script>
+</body>
+</html>

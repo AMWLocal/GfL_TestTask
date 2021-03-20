@@ -1,0 +1,43 @@
+body {
+    margin-top: 50px;
+}
+
+.modal-btn {
+    border: none;
+    border-radius: 3px
+}
+
+.icon-close {
+    border: none;
+    cursor: pointer;
+}
+
+.form-contact {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.address::before {
+    content: "address";
+    float: left;
+    width: 25%
+}
+
+input {
+    max-width: 80%;
+
+}
+
+.search {
+    margin: 10px;
+}
+
+.btn-edit,
+.btn-delete {
+    cursor: pointer;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
